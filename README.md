@@ -1,1 +1,0 @@
-# proprietary_vendor_samsung_sm8550-common

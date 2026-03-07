@@ -646,7 +646,6 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsnsutils \
     libsocial_image_enhancement.uniplugin@1.0 \
-    libspatializerparamstorage \
     libspcom \
     libspeakercalibration \
     libspl \

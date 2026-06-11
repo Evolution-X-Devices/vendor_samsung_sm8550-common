@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/wifi_qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_qcom.rc \
@@ -673,7 +672,6 @@ PRODUCT_PACKAGES += \
     libtestutils \
     libtfestriping \
     libtflitecore \
-    libthermalclient \
     libthreadutils \
     libtime_genoff \
     libtinyxml2_1 \
@@ -797,7 +795,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.drk-V1-ndk \
     vendor.samsung.hardware.security.drk@2.0 \
     vendor.samsung.hardware.security.hermes-V1-ndk \
-    vendor.samsung.hardware.thermal@1.0 \
     vendor_lib_rfsa_adsp_bm3a68v08s11n29_bin \
     vendor_lib_rfsa_adsp_bm3a68v08s11n30_bin \
     vendor_lib_rfsa_adsp_bm3a68v08s11n35_bin \
@@ -900,7 +897,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.samsung.hardware.camera.provider-service.xml \
-    vendor.samsung.hardware.thermal@1.0-manifest.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \

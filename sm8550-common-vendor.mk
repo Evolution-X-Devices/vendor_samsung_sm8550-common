@@ -959,6 +959,7 @@ PRODUCT_PACKAGES += \
     subsystem_ramdump \
     system_dlkm_modprobe \
     tftp_server \
+    time_client \
     time_daemon \
     trusteduilistener \
     vendor_modprobe \
